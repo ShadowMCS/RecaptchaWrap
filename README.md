@@ -3,7 +3,7 @@ Simple PHP Wrapper for Recaptcha Validation.
 
 Example usage:
 
-    verifyCaptcha($_FORM['g-recaptcha-response'], 'YOUR RECAPTCHASECRET');
+    verifyCaptcha($_POST['g-recaptcha-response'], 'YOUR RECAPTCHASECRET');
     
     
     if (verifyCaptcha()){
