@@ -12,7 +12,7 @@ class RecaptchaWrap
             $params = array(
 
                 'secret' => urlencode($secret),
-                'response' => urlencode($_POST['g-recaptcha-response'])
+                'response' => urlencode($response)
 
 
             );
